@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 import sys
 
-application_path = os.path.dirname(sys.executable)
+application_path = 'C:/Users/Aymen/Desktop/personal_project/news-automation/'
 print(application_path)
 
 now = datetime.now()
@@ -16,7 +16,7 @@ print(now,'='*10,month_day_year)
 
 
 web = 'https://www.thesun.co.uk/sport/football/'
-path = 'C:\Users\Aymen\Desktop\personal_project\news-automation\chromedriver.exe'
+path = 'C:/Users/Aymen/Desktop/personal_project/news-automation/chromedriver.exe'
 
 options = Options() # options for our web driver
 options.headless = True # headless mode
