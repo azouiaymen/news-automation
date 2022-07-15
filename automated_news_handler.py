@@ -18,7 +18,7 @@ print(now,'='*10,month_day_year)
 web = 'https://www.thesun.co.uk/sport/football/'
 path = 'C:/Users/Aymen/Desktop/personal_project/news-automation/chromedriver.exe'
 
-options = Options() # options for our web driver
+options = Options() # options for our web driveroi
 options.headless = True # headless mode
 
 # Headless testing is simply running your Selenium tests using a headless browser. It operates as your typical browser would,
